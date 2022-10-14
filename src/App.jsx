@@ -1,6 +1,7 @@
 import logo from './assets/logo.svg'
 
 import Main from './components/sections/Main'
+import Projects from './components/sections/Projects'
 
 function App() {
 
@@ -20,6 +21,8 @@ function App() {
       </header>
       <main>
         <Main/>
+        <hr className="h-[1px] w-[30%] bg-white mx-auto"/>
+        <Projects/>
       </main>
     </div>
   )
